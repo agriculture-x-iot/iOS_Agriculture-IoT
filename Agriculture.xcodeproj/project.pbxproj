@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4520CB68E4BEEE386F414386 /* Pods_Agriculture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7803F6C993DE0639AA6567 /* Pods_Agriculture.framework */; };
 		D9D4196722C5B33900F23446 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4196622C5B33900F23446 /* AppDelegate.swift */; };
 		D9D4196922C5B33900F23446 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4196822C5B33900F23446 /* ViewController.swift */; };
 		D9D4196C22C5B33900F23446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D4196A22C5B33900F23446 /* Main.storyboard */; };
@@ -14,6 +15,102 @@
 		D9D4197122C5B33A00F23446 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9D4196F22C5B33A00F23446 /* LaunchScreen.storyboard */; };
 		D9D4197C22C5B33A00F23446 /* AgricultureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4197B22C5B33A00F23446 /* AgricultureTests.swift */; };
 		D9D4198722C5B33A00F23446 /* AgricultureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D4198622C5B33A00F23446 /* AgricultureUITests.swift */; };
+		D9DB199722C5B5590099F0C3 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194922C5B5590099F0C3 /* NCMBAnalytics.m */; };
+		D9DB199822C5B5590099F0C3 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194922C5B5590099F0C3 /* NCMBAnalytics.m */; };
+		D9DB199922C5B5590099F0C3 /* NCMBAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194922C5B5590099F0C3 /* NCMBAnalytics.m */; };
+		D9DB199A22C5B5590099F0C3 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194D22C5B5590099F0C3 /* NCMBRole.m */; };
+		D9DB199B22C5B5590099F0C3 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194D22C5B5590099F0C3 /* NCMBRole.m */; };
+		D9DB199C22C5B5590099F0C3 /* NCMBRole.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194D22C5B5590099F0C3 /* NCMBRole.m */; };
+		D9DB199D22C5B5590099F0C3 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194E22C5B5590099F0C3 /* NCMBObject.m */; };
+		D9DB199E22C5B5590099F0C3 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194E22C5B5590099F0C3 /* NCMBObject.m */; };
+		D9DB199F22C5B5590099F0C3 /* NCMBObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB194E22C5B5590099F0C3 /* NCMBObject.m */; };
+		D9DB19A022C5B5590099F0C3 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195422C5B5590099F0C3 /* NCMBDateFormat.m */; };
+		D9DB19A122C5B5590099F0C3 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195422C5B5590099F0C3 /* NCMBDateFormat.m */; };
+		D9DB19A222C5B5590099F0C3 /* NCMBDateFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195422C5B5590099F0C3 /* NCMBDateFormat.m */; };
+		D9DB19A322C5B5590099F0C3 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195522C5B5590099F0C3 /* NCMBFile.m */; };
+		D9DB19A422C5B5590099F0C3 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195522C5B5590099F0C3 /* NCMBFile.m */; };
+		D9DB19A522C5B5590099F0C3 /* NCMBFile.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195522C5B5590099F0C3 /* NCMBFile.m */; };
+		D9DB19A622C5B5590099F0C3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195722C5B5590099F0C3 /* NCMBURLSession.m */; };
+		D9DB19A722C5B5590099F0C3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195722C5B5590099F0C3 /* NCMBURLSession.m */; };
+		D9DB19A822C5B5590099F0C3 /* NCMBURLSession.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195722C5B5590099F0C3 /* NCMBURLSession.m */; };
+		D9DB19A922C5B5590099F0C3 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195E22C5B5590099F0C3 /* NCMBACL.m */; };
+		D9DB19AA22C5B5590099F0C3 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195E22C5B5590099F0C3 /* NCMBACL.m */; };
+		D9DB19AB22C5B5590099F0C3 /* NCMBACL.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB195E22C5B5590099F0C3 /* NCMBACL.m */; };
+		D9DB19AC22C5B5590099F0C3 /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196222C5B5590099F0C3 /* NCMBScriptService.m */; };
+		D9DB19AD22C5B5590099F0C3 /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196222C5B5590099F0C3 /* NCMBScriptService.m */; };
+		D9DB19AE22C5B5590099F0C3 /* NCMBScriptService.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196222C5B5590099F0C3 /* NCMBScriptService.m */; };
+		D9DB19AF22C5B5590099F0C3 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196422C5B5590099F0C3 /* SubClassHandler.m */; };
+		D9DB19B022C5B5590099F0C3 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196422C5B5590099F0C3 /* SubClassHandler.m */; };
+		D9DB19B122C5B5590099F0C3 /* SubClassHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196422C5B5590099F0C3 /* SubClassHandler.m */; };
+		D9DB19B222C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196922C5B5590099F0C3 /* NCMBDeleteOperation.m */; };
+		D9DB19B322C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196922C5B5590099F0C3 /* NCMBDeleteOperation.m */; };
+		D9DB19B422C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196922C5B5590099F0C3 /* NCMBDeleteOperation.m */; };
+		D9DB19B522C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196D22C5B5590099F0C3 /* NCMBIncrementOperation.m */; };
+		D9DB19B622C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196D22C5B5590099F0C3 /* NCMBIncrementOperation.m */; };
+		D9DB19B722C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB196D22C5B5590099F0C3 /* NCMBIncrementOperation.m */; };
+		D9DB19B822C5B5590099F0C3 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197022C5B5590099F0C3 /* NCMBSetOperation.m */; };
+		D9DB19B922C5B5590099F0C3 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197022C5B5590099F0C3 /* NCMBSetOperation.m */; };
+		D9DB19BA22C5B5590099F0C3 /* NCMBSetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197022C5B5590099F0C3 /* NCMBSetOperation.m */; };
+		D9DB19BB22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197122C5B5590099F0C3 /* NCMBAddUniqueOperation.m */; };
+		D9DB19BC22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197122C5B5590099F0C3 /* NCMBAddUniqueOperation.m */; };
+		D9DB19BD22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197122C5B5590099F0C3 /* NCMBAddUniqueOperation.m */; };
+		D9DB19BE22C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197222C5B5590099F0C3 /* NCMBRelationOperation.m */; };
+		D9DB19BF22C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197222C5B5590099F0C3 /* NCMBRelationOperation.m */; };
+		D9DB19C022C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197222C5B5590099F0C3 /* NCMBRelationOperation.m */; };
+		D9DB19C122C5B5590099F0C3 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197322C5B5590099F0C3 /* NCMBAddOperation.m */; };
+		D9DB19C222C5B5590099F0C3 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197322C5B5590099F0C3 /* NCMBAddOperation.m */; };
+		D9DB19C322C5B5590099F0C3 /* NCMBAddOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197322C5B5590099F0C3 /* NCMBAddOperation.m */; };
+		D9DB19C422C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197422C5B5590099F0C3 /* NCMBRemoveOperation.m */; };
+		D9DB19C522C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197422C5B5590099F0C3 /* NCMBRemoveOperation.m */; };
+		D9DB19C622C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197422C5B5590099F0C3 /* NCMBRemoveOperation.m */; };
+		D9DB19C722C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197722C5B5590099F0C3 /* NCMBCloseImageView.m */; };
+		D9DB19C822C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197722C5B5590099F0C3 /* NCMBCloseImageView.m */; };
+		D9DB19C922C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197722C5B5590099F0C3 /* NCMBCloseImageView.m */; };
+		D9DB19CA22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197A22C5B5590099F0C3 /* NCMBRichPushView.m */; };
+		D9DB19CB22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197A22C5B5590099F0C3 /* NCMBRichPushView.m */; };
+		D9DB19CC22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197A22C5B5590099F0C3 /* NCMBRichPushView.m */; };
+		D9DB19CD22C5B5590099F0C3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197B22C5B5590099F0C3 /* NCMBRelation.m */; };
+		D9DB19CE22C5B5590099F0C3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197B22C5B5590099F0C3 /* NCMBRelation.m */; };
+		D9DB19CF22C5B5590099F0C3 /* NCMBRelation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197B22C5B5590099F0C3 /* NCMBRelation.m */; };
+		D9DB19D022C5B5590099F0C3 /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197E22C5B5590099F0C3 /* NCMBRequest.m */; };
+		D9DB19D122C5B5590099F0C3 /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197E22C5B5590099F0C3 /* NCMBRequest.m */; };
+		D9DB19D222C5B5590099F0C3 /* NCMBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB197E22C5B5590099F0C3 /* NCMBRequest.m */; };
+		D9DB19D322C5B5590099F0C3 /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198122C5B5590099F0C3 /* NCMBQuery.m */; };
+		D9DB19D422C5B5590099F0C3 /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198122C5B5590099F0C3 /* NCMBQuery.m */; };
+		D9DB19D522C5B5590099F0C3 /* NCMBQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198122C5B5590099F0C3 /* NCMBQuery.m */; };
+		D9DB19D622C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198222C5B5590099F0C3 /* NCMBGeoPoint.m */; };
+		D9DB19D722C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198222C5B5590099F0C3 /* NCMBGeoPoint.m */; };
+		D9DB19D822C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198222C5B5590099F0C3 /* NCMBGeoPoint.m */; };
+		D9DB19D922C5B5590099F0C3 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198522C5B5590099F0C3 /* NCMBError.m */; };
+		D9DB19DA22C5B5590099F0C3 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198522C5B5590099F0C3 /* NCMBError.m */; };
+		D9DB19DB22C5B5590099F0C3 /* NCMBError.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198522C5B5590099F0C3 /* NCMBError.m */; };
+		D9DB19DC22C5B5590099F0C3 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198622C5B5590099F0C3 /* NCMBInstallation.m */; };
+		D9DB19DD22C5B5590099F0C3 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198622C5B5590099F0C3 /* NCMBInstallation.m */; };
+		D9DB19DE22C5B5590099F0C3 /* NCMBInstallation.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198622C5B5590099F0C3 /* NCMBInstallation.m */; };
+		D9DB19DF22C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198722C5B5590099F0C3 /* NCMBAnonymousUtils.m */; };
+		D9DB19E022C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198722C5B5590099F0C3 /* NCMBAnonymousUtils.m */; };
+		D9DB19E122C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198722C5B5590099F0C3 /* NCMBAnonymousUtils.m */; };
+		D9DB19E222C5B5590099F0C3 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198822C5B5590099F0C3 /* NCMBScript.m */; };
+		D9DB19E322C5B5590099F0C3 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198822C5B5590099F0C3 /* NCMBScript.m */; };
+		D9DB19E422C5B5590099F0C3 /* NCMBScript.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198822C5B5590099F0C3 /* NCMBScript.m */; };
+		D9DB19E522C5B5590099F0C3 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198922C5B5590099F0C3 /* NCMBPush.m */; };
+		D9DB19E622C5B5590099F0C3 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198922C5B5590099F0C3 /* NCMBPush.m */; };
+		D9DB19E722C5B5590099F0C3 /* NCMBPush.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198922C5B5590099F0C3 /* NCMBPush.m */; };
+		D9DB19E822C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198D22C5B5590099F0C3 /* NSDataBase64Encode.m */; };
+		D9DB19E922C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198D22C5B5590099F0C3 /* NSDataBase64Encode.m */; };
+		D9DB19EA22C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198D22C5B5590099F0C3 /* NSDataBase64Encode.m */; };
+		D9DB19EB22C5B5590099F0C3 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198F22C5B5590099F0C3 /* NCMBUser.m */; };
+		D9DB19EC22C5B5590099F0C3 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198F22C5B5590099F0C3 /* NCMBUser.m */; };
+		D9DB19ED22C5B5590099F0C3 /* NCMBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB198F22C5B5590099F0C3 /* NCMBUser.m */; };
+		D9DB19EE22C5B5590099F0C3 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199122C5B5590099F0C3 /* NCMB.m */; };
+		D9DB19EF22C5B5590099F0C3 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199122C5B5590099F0C3 /* NCMB.m */; };
+		D9DB19F022C5B5590099F0C3 /* NCMB.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199122C5B5590099F0C3 /* NCMB.m */; };
+		D9DB19F122C5B5590099F0C3 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199322C5B5590099F0C3 /* NCMBReachability.m */; };
+		D9DB19F222C5B5590099F0C3 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199322C5B5590099F0C3 /* NCMBReachability.m */; };
+		D9DB19F322C5B5590099F0C3 /* NCMBReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DB199322C5B5590099F0C3 /* NCMBReachability.m */; };
+		D9DB19F422C5B5590099F0C3 /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB199522C5B5590099F0C3 /* NCMB_Info.plist */; };
+		D9DB19F522C5B5590099F0C3 /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB199522C5B5590099F0C3 /* NCMB_Info.plist */; };
+		D9DB19F622C5B5590099F0C3 /* NCMB_Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9DB199522C5B5590099F0C3 /* NCMB_Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +131,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		847676EB3C67176293C6B474 /* Pods-Agriculture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agriculture.release.xcconfig"; path = "Target Support Files/Pods-Agriculture/Pods-Agriculture.release.xcconfig"; sourceTree = "<group>"; };
+		B32BE0E568D3E1939F9425DE /* Pods-Agriculture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Agriculture.debug.xcconfig"; path = "Target Support Files/Pods-Agriculture/Pods-Agriculture.debug.xcconfig"; sourceTree = "<group>"; };
+		BB7803F6C993DE0639AA6567 /* Pods_Agriculture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Agriculture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4196322C5B33900F23446 /* Agriculture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agriculture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4196622C5B33900F23446 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D9D4196822C5B33900F23446 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +147,77 @@
 		D9D4198222C5B33A00F23446 /* AgricultureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgricultureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D4198622C5B33A00F23446 /* AgricultureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgricultureUITests.swift; sourceTree = "<group>"; };
 		D9D4198822C5B33A00F23446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DB194722C5B5590099F0C3 /* NCMBGeoPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBGeoPoint.h; sourceTree = "<group>"; };
+		D9DB194822C5B5590099F0C3 /* NCMBQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBQuery.h; sourceTree = "<group>"; };
+		D9DB194922C5B5590099F0C3 /* NCMBAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAnalytics.m; sourceTree = "<group>"; };
+		D9DB194A22C5B5590099F0C3 /* NCMBObject+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBObject+Subclass.h"; sourceTree = "<group>"; };
+		D9DB194B22C5B5590099F0C3 /* NCMBRelation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRelation.h; sourceTree = "<group>"; };
+		D9DB194C22C5B5590099F0C3 /* NCMBPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBPush.h; sourceTree = "<group>"; };
+		D9DB194D22C5B5590099F0C3 /* NCMBRole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRole.m; sourceTree = "<group>"; };
+		D9DB194E22C5B5590099F0C3 /* NCMBObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBObject.m; sourceTree = "<group>"; };
+		D9DB194F22C5B5590099F0C3 /* NCMB_umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMB_umbrella.h; sourceTree = "<group>"; };
+		D9DB195022C5B5590099F0C3 /* NCMBScript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBScript.h; sourceTree = "<group>"; };
+		D9DB195122C5B5590099F0C3 /* NCMBInstallation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBInstallation.h; sourceTree = "<group>"; };
+		D9DB195222C5B5590099F0C3 /* NCMBAnonymousUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAnonymousUtils.h; sourceTree = "<group>"; };
+		D9DB195322C5B5590099F0C3 /* NCMBError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBError.h; sourceTree = "<group>"; };
+		D9DB195422C5B5590099F0C3 /* NCMBDateFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBDateFormat.m; sourceTree = "<group>"; };
+		D9DB195522C5B5590099F0C3 /* NCMBFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBFile.m; sourceTree = "<group>"; };
+		D9DB195722C5B5590099F0C3 /* NCMBURLSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBURLSession.m; sourceTree = "<group>"; };
+		D9DB195822C5B5590099F0C3 /* NCMBURLSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBURLSession.h; sourceTree = "<group>"; };
+		D9DB195A22C5B5590099F0C3 /* NCMBRelation+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBRelation+Private.h"; sourceTree = "<group>"; };
+		D9DB195B22C5B5590099F0C3 /* NCMBQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBQuery+Private.h"; sourceTree = "<group>"; };
+		D9DB195C22C5B5590099F0C3 /* NCMBObject+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBObject+Private.h"; sourceTree = "<group>"; };
+		D9DB195D22C5B5590099F0C3 /* NCMBUser+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NCMBUser+Private.h"; sourceTree = "<group>"; };
+		D9DB195E22C5B5590099F0C3 /* NCMBACL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBACL.m; sourceTree = "<group>"; };
+		D9DB195F22C5B5590099F0C3 /* NCMBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBUser.h; sourceTree = "<group>"; };
+		D9DB196122C5B5590099F0C3 /* NCMBScriptService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBScriptService.h; sourceTree = "<group>"; };
+		D9DB196222C5B5590099F0C3 /* NCMBScriptService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBScriptService.m; sourceTree = "<group>"; };
+		D9DB196422C5B5590099F0C3 /* SubClassHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubClassHandler.m; sourceTree = "<group>"; };
+		D9DB196522C5B5590099F0C3 /* SubClassHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubClassHandler.h; sourceTree = "<group>"; };
+		D9DB196622C5B5590099F0C3 /* NCMB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMB.h; sourceTree = "<group>"; };
+		D9DB196822C5B5590099F0C3 /* NCMBSetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBSetOperation.h; sourceTree = "<group>"; };
+		D9DB196922C5B5590099F0C3 /* NCMBDeleteOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBDeleteOperation.m; sourceTree = "<group>"; };
+		D9DB196A22C5B5590099F0C3 /* NCMBAddOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAddOperation.h; sourceTree = "<group>"; };
+		D9DB196B22C5B5590099F0C3 /* NCMBRelationOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRelationOperation.h; sourceTree = "<group>"; };
+		D9DB196C22C5B5590099F0C3 /* NCMBAddUniqueOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAddUniqueOperation.h; sourceTree = "<group>"; };
+		D9DB196D22C5B5590099F0C3 /* NCMBIncrementOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBIncrementOperation.m; sourceTree = "<group>"; };
+		D9DB196E22C5B5590099F0C3 /* NCMBRemoveOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRemoveOperation.h; sourceTree = "<group>"; };
+		D9DB196F22C5B5590099F0C3 /* NCMBDeleteOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBDeleteOperation.h; sourceTree = "<group>"; };
+		D9DB197022C5B5590099F0C3 /* NCMBSetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBSetOperation.m; sourceTree = "<group>"; };
+		D9DB197122C5B5590099F0C3 /* NCMBAddUniqueOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAddUniqueOperation.m; sourceTree = "<group>"; };
+		D9DB197222C5B5590099F0C3 /* NCMBRelationOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRelationOperation.m; sourceTree = "<group>"; };
+		D9DB197322C5B5590099F0C3 /* NCMBAddOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAddOperation.m; sourceTree = "<group>"; };
+		D9DB197422C5B5590099F0C3 /* NCMBRemoveOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRemoveOperation.m; sourceTree = "<group>"; };
+		D9DB197522C5B5590099F0C3 /* NCMBIncrementOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBIncrementOperation.h; sourceTree = "<group>"; };
+		D9DB197722C5B5590099F0C3 /* NCMBCloseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBCloseImageView.m; sourceTree = "<group>"; };
+		D9DB197822C5B5590099F0C3 /* NCMBRichPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRichPushView.h; sourceTree = "<group>"; };
+		D9DB197922C5B5590099F0C3 /* NCMBCloseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBCloseImageView.h; sourceTree = "<group>"; };
+		D9DB197A22C5B5590099F0C3 /* NCMBRichPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRichPushView.m; sourceTree = "<group>"; };
+		D9DB197B22C5B5590099F0C3 /* NCMBRelation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRelation.m; sourceTree = "<group>"; };
+		D9DB197D22C5B5590099F0C3 /* NCMBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRequest.h; sourceTree = "<group>"; };
+		D9DB197E22C5B5590099F0C3 /* NCMBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBRequest.m; sourceTree = "<group>"; };
+		D9DB197F22C5B5590099F0C3 /* NCMBConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBConstants.h; sourceTree = "<group>"; };
+		D9DB198022C5B5590099F0C3 /* NCMBAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBAnalytics.h; sourceTree = "<group>"; };
+		D9DB198122C5B5590099F0C3 /* NCMBQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBQuery.m; sourceTree = "<group>"; };
+		D9DB198222C5B5590099F0C3 /* NCMBGeoPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBGeoPoint.m; sourceTree = "<group>"; };
+		D9DB198322C5B5590099F0C3 /* NCMBFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBFile.h; sourceTree = "<group>"; };
+		D9DB198422C5B5590099F0C3 /* NCMBDateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBDateFormat.h; sourceTree = "<group>"; };
+		D9DB198522C5B5590099F0C3 /* NCMBError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBError.m; sourceTree = "<group>"; };
+		D9DB198622C5B5590099F0C3 /* NCMBInstallation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBInstallation.m; sourceTree = "<group>"; };
+		D9DB198722C5B5590099F0C3 /* NCMBAnonymousUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBAnonymousUtils.m; sourceTree = "<group>"; };
+		D9DB198822C5B5590099F0C3 /* NCMBScript.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBScript.m; sourceTree = "<group>"; };
+		D9DB198922C5B5590099F0C3 /* NCMBPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBPush.m; sourceTree = "<group>"; };
+		D9DB198A22C5B5590099F0C3 /* NCMBRole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBRole.h; sourceTree = "<group>"; };
+		D9DB198B22C5B5590099F0C3 /* NCMBObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBObject.h; sourceTree = "<group>"; };
+		D9DB198D22C5B5590099F0C3 /* NSDataBase64Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataBase64Encode.m; sourceTree = "<group>"; };
+		D9DB198E22C5B5590099F0C3 /* NSDataBase64Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataBase64Encode.h; sourceTree = "<group>"; };
+		D9DB198F22C5B5590099F0C3 /* NCMBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBUser.m; sourceTree = "<group>"; };
+		D9DB199022C5B5590099F0C3 /* NCMBACL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBACL.h; sourceTree = "<group>"; };
+		D9DB199122C5B5590099F0C3 /* NCMB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMB.m; sourceTree = "<group>"; };
+		D9DB199322C5B5590099F0C3 /* NCMBReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCMBReachability.m; sourceTree = "<group>"; };
+		D9DB199422C5B5590099F0C3 /* NCMBReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBReachability.h; sourceTree = "<group>"; };
+		D9DB199522C5B5590099F0C3 /* NCMB_Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NCMB_Info.plist; sourceTree = "<group>"; };
+		D9DB199622C5B5590099F0C3 /* NCMBSubclassing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCMBSubclassing.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +225,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4520CB68E4BEEE386F414386 /* Pods_Agriculture.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +246,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B4BAC47051A0DC978F93AE7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB7803F6C993DE0639AA6567 /* Pods_Agriculture.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9D4195A22C5B33900F23446 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +261,8 @@
 				D9D4197A22C5B33A00F23446 /* AgricultureTests */,
 				D9D4198522C5B33A00F23446 /* AgricultureUITests */,
 				D9D4196422C5B33900F23446 /* Products */,
+				E7F76C803653E1E08D74E536 /* Pods */,
+				B4BAC47051A0DC978F93AE7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +279,7 @@
 		D9D4196522C5B33900F23446 /* Agriculture */ = {
 			isa = PBXGroup;
 			children = (
+				D9DB194622C5B5590099F0C3 /* NCMB */,
 				D9D4196622C5B33900F23446 /* AppDelegate.swift */,
 				D9D4196822C5B33900F23446 /* ViewController.swift */,
 				D9D4196A22C5B33900F23446 /* Main.storyboard */,
@@ -125,6 +308,165 @@
 			path = AgricultureUITests;
 			sourceTree = "<group>";
 		};
+		D9DB194622C5B5590099F0C3 /* NCMB */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB194722C5B5590099F0C3 /* NCMBGeoPoint.h */,
+				D9DB194822C5B5590099F0C3 /* NCMBQuery.h */,
+				D9DB194922C5B5590099F0C3 /* NCMBAnalytics.m */,
+				D9DB194A22C5B5590099F0C3 /* NCMBObject+Subclass.h */,
+				D9DB194B22C5B5590099F0C3 /* NCMBRelation.h */,
+				D9DB194C22C5B5590099F0C3 /* NCMBPush.h */,
+				D9DB194D22C5B5590099F0C3 /* NCMBRole.m */,
+				D9DB194E22C5B5590099F0C3 /* NCMBObject.m */,
+				D9DB194F22C5B5590099F0C3 /* NCMB_umbrella.h */,
+				D9DB195022C5B5590099F0C3 /* NCMBScript.h */,
+				D9DB195122C5B5590099F0C3 /* NCMBInstallation.h */,
+				D9DB195222C5B5590099F0C3 /* NCMBAnonymousUtils.h */,
+				D9DB195322C5B5590099F0C3 /* NCMBError.h */,
+				D9DB195422C5B5590099F0C3 /* NCMBDateFormat.m */,
+				D9DB195522C5B5590099F0C3 /* NCMBFile.m */,
+				D9DB195622C5B5590099F0C3 /* NCMBURLSession */,
+				D9DB195922C5B5590099F0C3 /* PrivateHeaders */,
+				D9DB195E22C5B5590099F0C3 /* NCMBACL.m */,
+				D9DB195F22C5B5590099F0C3 /* NCMBUser.h */,
+				D9DB196022C5B5590099F0C3 /* NCMBScriptService */,
+				D9DB196322C5B5590099F0C3 /* SubClassHandler */,
+				D9DB196622C5B5590099F0C3 /* NCMB.h */,
+				D9DB196722C5B5590099F0C3 /* Operations */,
+				D9DB197622C5B5590099F0C3 /* NCMBRichPush */,
+				D9DB197B22C5B5590099F0C3 /* NCMBRelation.m */,
+				D9DB197C22C5B5590099F0C3 /* NCMBRequest */,
+				D9DB197F22C5B5590099F0C3 /* NCMBConstants.h */,
+				D9DB198022C5B5590099F0C3 /* NCMBAnalytics.h */,
+				D9DB198122C5B5590099F0C3 /* NCMBQuery.m */,
+				D9DB198222C5B5590099F0C3 /* NCMBGeoPoint.m */,
+				D9DB198322C5B5590099F0C3 /* NCMBFile.h */,
+				D9DB198422C5B5590099F0C3 /* NCMBDateFormat.h */,
+				D9DB198522C5B5590099F0C3 /* NCMBError.m */,
+				D9DB198622C5B5590099F0C3 /* NCMBInstallation.m */,
+				D9DB198722C5B5590099F0C3 /* NCMBAnonymousUtils.m */,
+				D9DB198822C5B5590099F0C3 /* NCMBScript.m */,
+				D9DB198922C5B5590099F0C3 /* NCMBPush.m */,
+				D9DB198A22C5B5590099F0C3 /* NCMBRole.h */,
+				D9DB198B22C5B5590099F0C3 /* NCMBObject.h */,
+				D9DB198C22C5B5590099F0C3 /* NSDataBase64Encode */,
+				D9DB198F22C5B5590099F0C3 /* NCMBUser.m */,
+				D9DB199022C5B5590099F0C3 /* NCMBACL.h */,
+				D9DB199122C5B5590099F0C3 /* NCMB.m */,
+				D9DB199222C5B5590099F0C3 /* NCMBReachability */,
+				D9DB199522C5B5590099F0C3 /* NCMB_Info.plist */,
+				D9DB199622C5B5590099F0C3 /* NCMBSubclassing.h */,
+			);
+			path = NCMB;
+			sourceTree = "<group>";
+		};
+		D9DB195622C5B5590099F0C3 /* NCMBURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB195722C5B5590099F0C3 /* NCMBURLSession.m */,
+				D9DB195822C5B5590099F0C3 /* NCMBURLSession.h */,
+			);
+			path = NCMBURLSession;
+			sourceTree = "<group>";
+		};
+		D9DB195922C5B5590099F0C3 /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB195A22C5B5590099F0C3 /* NCMBRelation+Private.h */,
+				D9DB195B22C5B5590099F0C3 /* NCMBQuery+Private.h */,
+				D9DB195C22C5B5590099F0C3 /* NCMBObject+Private.h */,
+				D9DB195D22C5B5590099F0C3 /* NCMBUser+Private.h */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		D9DB196022C5B5590099F0C3 /* NCMBScriptService */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB196122C5B5590099F0C3 /* NCMBScriptService.h */,
+				D9DB196222C5B5590099F0C3 /* NCMBScriptService.m */,
+			);
+			path = NCMBScriptService;
+			sourceTree = "<group>";
+		};
+		D9DB196322C5B5590099F0C3 /* SubClassHandler */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB196422C5B5590099F0C3 /* SubClassHandler.m */,
+				D9DB196522C5B5590099F0C3 /* SubClassHandler.h */,
+			);
+			path = SubClassHandler;
+			sourceTree = "<group>";
+		};
+		D9DB196722C5B5590099F0C3 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB196822C5B5590099F0C3 /* NCMBSetOperation.h */,
+				D9DB196922C5B5590099F0C3 /* NCMBDeleteOperation.m */,
+				D9DB196A22C5B5590099F0C3 /* NCMBAddOperation.h */,
+				D9DB196B22C5B5590099F0C3 /* NCMBRelationOperation.h */,
+				D9DB196C22C5B5590099F0C3 /* NCMBAddUniqueOperation.h */,
+				D9DB196D22C5B5590099F0C3 /* NCMBIncrementOperation.m */,
+				D9DB196E22C5B5590099F0C3 /* NCMBRemoveOperation.h */,
+				D9DB196F22C5B5590099F0C3 /* NCMBDeleteOperation.h */,
+				D9DB197022C5B5590099F0C3 /* NCMBSetOperation.m */,
+				D9DB197122C5B5590099F0C3 /* NCMBAddUniqueOperation.m */,
+				D9DB197222C5B5590099F0C3 /* NCMBRelationOperation.m */,
+				D9DB197322C5B5590099F0C3 /* NCMBAddOperation.m */,
+				D9DB197422C5B5590099F0C3 /* NCMBRemoveOperation.m */,
+				D9DB197522C5B5590099F0C3 /* NCMBIncrementOperation.h */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		D9DB197622C5B5590099F0C3 /* NCMBRichPush */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB197722C5B5590099F0C3 /* NCMBCloseImageView.m */,
+				D9DB197822C5B5590099F0C3 /* NCMBRichPushView.h */,
+				D9DB197922C5B5590099F0C3 /* NCMBCloseImageView.h */,
+				D9DB197A22C5B5590099F0C3 /* NCMBRichPushView.m */,
+			);
+			path = NCMBRichPush;
+			sourceTree = "<group>";
+		};
+		D9DB197C22C5B5590099F0C3 /* NCMBRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB197D22C5B5590099F0C3 /* NCMBRequest.h */,
+				D9DB197E22C5B5590099F0C3 /* NCMBRequest.m */,
+			);
+			path = NCMBRequest;
+			sourceTree = "<group>";
+		};
+		D9DB198C22C5B5590099F0C3 /* NSDataBase64Encode */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB198D22C5B5590099F0C3 /* NSDataBase64Encode.m */,
+				D9DB198E22C5B5590099F0C3 /* NSDataBase64Encode.h */,
+			);
+			path = NSDataBase64Encode;
+			sourceTree = "<group>";
+		};
+		D9DB199222C5B5590099F0C3 /* NCMBReachability */ = {
+			isa = PBXGroup;
+			children = (
+				D9DB199322C5B5590099F0C3 /* NCMBReachability.m */,
+				D9DB199422C5B5590099F0C3 /* NCMBReachability.h */,
+			);
+			path = NCMBReachability;
+			sourceTree = "<group>";
+		};
+		E7F76C803653E1E08D74E536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B32BE0E568D3E1939F9425DE /* Pods-Agriculture.debug.xcconfig */,
+				847676EB3C67176293C6B474 /* Pods-Agriculture.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +474,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D4198B22C5B33A00F23446 /* Build configuration list for PBXNativeTarget "Agriculture" */;
 			buildPhases = (
+				6DD033735A5BF0E1422EFF6B /* [CP] Check Pods Manifest.lock */,
 				D9D4195F22C5B33900F23446 /* Sources */,
 				D9D4196022C5B33900F23446 /* Frameworks */,
 				D9D4196122C5B33900F23446 /* Resources */,
+				2D6152238FD87C13C6587514 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,6 +573,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19F422C5B5590099F0C3 /* NCMB_Info.plist in Resources */,
 				D9D4197122C5B33A00F23446 /* LaunchScreen.storyboard in Resources */,
 				D9D4196E22C5B33A00F23446 /* Assets.xcassets in Resources */,
 				D9D4196C22C5B33900F23446 /* Main.storyboard in Resources */,
@@ -239,6 +584,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19F522C5B5590099F0C3 /* NCMB_Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +592,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19F622C5B5590099F0C3 /* NCMB_Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D6152238FD87C13C6587514 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agriculture/Pods-Agriculture-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Agriculture/Pods-Agriculture-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Agriculture/Pods-Agriculture-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DD033735A5BF0E1422EFF6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Agriculture-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D9D4195F22C5B33900F23446 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19CD22C5B5590099F0C3 /* NCMBRelation.m in Sources */,
+				D9DB19EE22C5B5590099F0C3 /* NCMB.m in Sources */,
+				D9DB19A022C5B5590099F0C3 /* NCMBDateFormat.m in Sources */,
+				D9DB19BE22C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */,
+				D9DB19D022C5B5590099F0C3 /* NCMBRequest.m in Sources */,
+				D9DB19E222C5B5590099F0C3 /* NCMBScript.m in Sources */,
 				D9D4196922C5B33900F23446 /* ViewController.swift in Sources */,
+				D9DB19C422C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */,
+				D9DB19E822C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */,
+				D9DB19A622C5B5590099F0C3 /* NCMBURLSession.m in Sources */,
+				D9DB19D922C5B5590099F0C3 /* NCMBError.m in Sources */,
+				D9DB199722C5B5590099F0C3 /* NCMBAnalytics.m in Sources */,
+				D9DB19E522C5B5590099F0C3 /* NCMBPush.m in Sources */,
+				D9DB19CA22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */,
+				D9DB19B822C5B5590099F0C3 /* NCMBSetOperation.m in Sources */,
+				D9DB19C122C5B5590099F0C3 /* NCMBAddOperation.m in Sources */,
+				D9DB19C722C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */,
+				D9DB19B222C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */,
+				D9DB19AF22C5B5590099F0C3 /* SubClassHandler.m in Sources */,
+				D9DB19EB22C5B5590099F0C3 /* NCMBUser.m in Sources */,
+				D9DB19AC22C5B5590099F0C3 /* NCMBScriptService.m in Sources */,
+				D9DB199D22C5B5590099F0C3 /* NCMBObject.m in Sources */,
+				D9DB19A922C5B5590099F0C3 /* NCMBACL.m in Sources */,
+				D9DB19F122C5B5590099F0C3 /* NCMBReachability.m in Sources */,
+				D9DB19DF22C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */,
+				D9DB19B522C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */,
 				D9D4196722C5B33900F23446 /* AppDelegate.swift in Sources */,
+				D9DB19A322C5B5590099F0C3 /* NCMBFile.m in Sources */,
+				D9DB199A22C5B5590099F0C3 /* NCMBRole.m in Sources */,
+				D9DB19D322C5B5590099F0C3 /* NCMBQuery.m in Sources */,
+				D9DB19DC22C5B5590099F0C3 /* NCMBInstallation.m in Sources */,
+				D9DB19D622C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */,
+				D9DB19BB22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +685,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19BC22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */,
+				D9DB199B22C5B5590099F0C3 /* NCMBRole.m in Sources */,
+				D9DB19D122C5B5590099F0C3 /* NCMBRequest.m in Sources */,
+				D9DB19EF22C5B5590099F0C3 /* NCMB.m in Sources */,
+				D9DB19B622C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */,
+				D9DB19CB22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */,
+				D9DB19C522C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */,
+				D9DB19B922C5B5590099F0C3 /* NCMBSetOperation.m in Sources */,
+				D9DB19B322C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */,
+				D9DB199822C5B5590099F0C3 /* NCMBAnalytics.m in Sources */,
+				D9DB19A122C5B5590099F0C3 /* NCMBDateFormat.m in Sources */,
+				D9DB19C222C5B5590099F0C3 /* NCMBAddOperation.m in Sources */,
+				D9DB19E022C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */,
+				D9DB19EC22C5B5590099F0C3 /* NCMBUser.m in Sources */,
+				D9DB19D722C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */,
+				D9DB19E322C5B5590099F0C3 /* NCMBScript.m in Sources */,
+				D9DB19E922C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */,
+				D9DB19A422C5B5590099F0C3 /* NCMBFile.m in Sources */,
+				D9DB19CE22C5B5590099F0C3 /* NCMBRelation.m in Sources */,
+				D9DB19B022C5B5590099F0C3 /* SubClassHandler.m in Sources */,
+				D9DB19AA22C5B5590099F0C3 /* NCMBACL.m in Sources */,
+				D9DB19DA22C5B5590099F0C3 /* NCMBError.m in Sources */,
+				D9DB199E22C5B5590099F0C3 /* NCMBObject.m in Sources */,
+				D9DB19DD22C5B5590099F0C3 /* NCMBInstallation.m in Sources */,
+				D9DB19E622C5B5590099F0C3 /* NCMBPush.m in Sources */,
+				D9DB19D422C5B5590099F0C3 /* NCMBQuery.m in Sources */,
+				D9DB19A722C5B5590099F0C3 /* NCMBURLSession.m in Sources */,
 				D9D4197C22C5B33A00F23446 /* AgricultureTests.swift in Sources */,
+				D9DB19C822C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */,
+				D9DB19AD22C5B5590099F0C3 /* NCMBScriptService.m in Sources */,
+				D9DB19F222C5B5590099F0C3 /* NCMBReachability.m in Sources */,
+				D9DB19BF22C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +724,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DB19BD22C5B5590099F0C3 /* NCMBAddUniqueOperation.m in Sources */,
+				D9DB199C22C5B5590099F0C3 /* NCMBRole.m in Sources */,
+				D9DB19D222C5B5590099F0C3 /* NCMBRequest.m in Sources */,
+				D9DB19F022C5B5590099F0C3 /* NCMB.m in Sources */,
+				D9DB19B722C5B5590099F0C3 /* NCMBIncrementOperation.m in Sources */,
+				D9DB19CC22C5B5590099F0C3 /* NCMBRichPushView.m in Sources */,
+				D9DB19C622C5B5590099F0C3 /* NCMBRemoveOperation.m in Sources */,
+				D9DB19BA22C5B5590099F0C3 /* NCMBSetOperation.m in Sources */,
+				D9DB19B422C5B5590099F0C3 /* NCMBDeleteOperation.m in Sources */,
+				D9DB199922C5B5590099F0C3 /* NCMBAnalytics.m in Sources */,
+				D9DB19A222C5B5590099F0C3 /* NCMBDateFormat.m in Sources */,
+				D9DB19C322C5B5590099F0C3 /* NCMBAddOperation.m in Sources */,
+				D9DB19E122C5B5590099F0C3 /* NCMBAnonymousUtils.m in Sources */,
+				D9DB19ED22C5B5590099F0C3 /* NCMBUser.m in Sources */,
+				D9DB19D822C5B5590099F0C3 /* NCMBGeoPoint.m in Sources */,
+				D9DB19E422C5B5590099F0C3 /* NCMBScript.m in Sources */,
+				D9DB19EA22C5B5590099F0C3 /* NSDataBase64Encode.m in Sources */,
+				D9DB19A522C5B5590099F0C3 /* NCMBFile.m in Sources */,
+				D9DB19CF22C5B5590099F0C3 /* NCMBRelation.m in Sources */,
+				D9DB19B122C5B5590099F0C3 /* SubClassHandler.m in Sources */,
+				D9DB19AB22C5B5590099F0C3 /* NCMBACL.m in Sources */,
+				D9DB19DB22C5B5590099F0C3 /* NCMBError.m in Sources */,
+				D9DB199F22C5B5590099F0C3 /* NCMBObject.m in Sources */,
+				D9DB19DE22C5B5590099F0C3 /* NCMBInstallation.m in Sources */,
+				D9DB19E722C5B5590099F0C3 /* NCMBPush.m in Sources */,
+				D9DB19D522C5B5590099F0C3 /* NCMBQuery.m in Sources */,
+				D9DB19A822C5B5590099F0C3 /* NCMBURLSession.m in Sources */,
 				D9D4198722C5B33A00F23446 /* AgricultureUITests.swift in Sources */,
+				D9DB19C922C5B5590099F0C3 /* NCMBCloseImageView.m in Sources */,
+				D9DB19AE22C5B5590099F0C3 /* NCMBScriptService.m in Sources */,
+				D9DB19F322C5B5590099F0C3 /* NCMBReachability.m in Sources */,
+				D9DB19C022C5B5590099F0C3 /* NCMBRelationOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +912,7 @@
 		};
 		D9D4198C22C5B33A00F23446 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B32BE0E568D3E1939F9425DE /* Pods-Agriculture.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +931,7 @@
 		};
 		D9D4198D22C5B33A00F23446 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847676EB3C67176293C6B474 /* Pods-Agriculture.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

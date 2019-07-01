@@ -7,15 +7,38 @@
 //
 
 import UIKit
+import NCMB
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    //********** APIキーの設定 **********
+    let applicationkey = "1e838113a0d931c87f10d99cf0e9ea510010563dcb8e4fa4dd1798fadce3528b"
+    let clientkey      = "7b44422c729efd0c8ff99b5686dc258bb88b7613342f85a1f1822f9a62fb3bc0"
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //********** SDKの初期化 **********
+        NCMB.setApplicationKey(applicationkey, clientKey: clientkey)
+        //▼▼▼起動時に処理される▼▼▼
+        // クラスのNCMBObjectを作成
+        let obj3 = NCMBObject(className: "AgriData")
+        // objectIdプロパティを設定
+        obj3?.objectId = "18RIfEdEkdPw9tKc"
+        // 設定されたobjectIdを元にデータストアからデータを取得
+        obj3?.fetchInBackground({ (error) in
+            if error != nil {
+                // 取得に失敗した場合の処理
+            }else{
+                // 取得に成功した場合の処理
+                // (例)取得したデータの出力
+                print(obj3! as NCMBObject)
+            }
+        })
+        //▲▲▲起動時に処理される▲▲▲
+        
         return true
     }
 
