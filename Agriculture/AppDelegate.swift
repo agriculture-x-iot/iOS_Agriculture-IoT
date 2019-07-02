@@ -39,6 +39,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         })
         //▲▲▲起動時に処理される▲▲▲
         //お腹すいた
+        //帰りたい
         
         return true
     }
