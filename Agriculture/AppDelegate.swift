@@ -38,8 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         })
         //▲▲▲起動時に処理される▲▲▲
-        //お腹すいた
-        //帰りたい
+        //湿気やばくね？
         
         return true
     }
