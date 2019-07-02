@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         })
         //▲▲▲起動時に処理される▲▲▲
-        //湿気やばくね？
+        //マック行こうぜ
         
         return true
     }
